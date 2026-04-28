@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Rex (Ankit)
+# 👋 Hey, I'm Ankit
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Computer+Science+Student;Python+%7C+C%2B%2B+%7C+JavaScript;Data+Structures+%26+Algorithms;Web+Developer+in+Progress" alt="Typing SVG" />
