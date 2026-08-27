@@ -1,0 +1,79 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Cascadia Code, Consolas, Menlo, monospace">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#140a2b"/>
+      <stop offset="40%" stop-color="#34155e"/>
+      <stop offset="70%" stop-color="#7c2f8a"/>
+      <stop offset="90%" stop-color="#b8467d"/>
+      <stop offset="100%" stop-color="#d97a63"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f0abfc"/>
+    </linearGradient>
+    <radialGradient id="moonglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0eefc" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#f0eefc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d0618" stop-opacity="0.84"/>
+      <stop offset="50%" stop-color="#0d0618" stop-opacity="0.56"/>
+      <stop offset="74%" stop-color="#0d0618" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="240" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#f0eefc">
+    <circle cx="90" cy="26" r="1.3" opacity="0.6"/>
+    <circle cx="150" cy="48" r="1" opacity="0.4"/>
+    <circle cx="230" cy="20" r="1.5" opacity="0.7"/>
+    <circle cx="300" cy="55" r="1" opacity="0.45"/>
+    <circle cx="360" cy="30" r="1.6" opacity="0.75"><animate attributeName="opacity" values="0.75;0.25;0.75" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="60" r="1" opacity="0.4"/>
+    <circle cx="500" cy="24" r="1.3" opacity="0.6"/>
+    <circle cx="560" cy="45" r="1" opacity="0.4"><animate attributeName="opacity" values="0.4;0.85;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="18" r="1.4" opacity="0.65"/>
+    <circle cx="710" cy="50" r="1" opacity="0.4"/>
+    <circle cx="800" cy="28" r="1.5" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="870" cy="60" r="1" opacity="0.4"/>
+    <circle cx="960" cy="22" r="1.2" opacity="0.55"/>
+  </g>
+
+  <!-- two tiny birds -->
+  <path d="M395,66 Q403,58 411,66 Q419,58 427,66" stroke="#f0eefc" stroke-width="1.8" fill="none" opacity="0.45" stroke-linecap="round"/>
+  <path d="M460,86 Q466,80 472,86 Q478,80 484,86" stroke="#f0eefc" stroke-width="1.4" fill="none" opacity="0.35" stroke-linecap="round"/>
+
+  <!-- moon, crescent, glowing -->
+  <circle cx="1140" cy="52" r="64" fill="url(#moonglow)"/>
+  <circle cx="1140" cy="52" r="26" fill="#f0eefc" opacity="0.92"/>
+  <circle cx="1152" cy="43" r="23" fill="url(#sky)"/>
+
+  <!-- far hills -->
+  <path d="M0,200 C120,178 260,190 400,182 C560,172 680,192 840,180 C980,170 1100,188 1200,178 L1200,240 L0,240 Z" fill="#3a1f66" opacity="0.55"/>
+
+  <!-- near hills, the torii stands on this ridge -->
+  <path d="M0,225 C150,205 300,215 450,208 C620,200 760,218 900,206 C1000,198 1100,212 1200,204 L1200,240 L0,240 Z" fill="#170a2c" opacity="0.94"/>
+
+  <!-- torii gate silhouette -->
+  <g fill="#170a2c">
+    <rect x="968" y="165" width="10" height="58" rx="2"/>
+    <rect x="1058" y="165" width="10" height="58" rx="2"/>
+    <rect x="948" y="158" width="144" height="10" rx="3"/>
+    <rect x="955" y="170" width="130" height="6" rx="2"/>
+    <rect x="968" y="195" width="100" height="8" rx="2"/>
+  </g>
+
+  <!-- warm horizon glow -->
+  <rect x="0" y="225" width="1200" height="15" fill="url(#bar)" opacity="0.12"/>
+
+  <!-- contrast scrim, so copy stays legible over the scene -->
+  <rect width="1200" height="240" fill="url(#scrim)"/>
+
+  <!-- copy block -->
+  <text x="64" y="66" font-size="24" letter-spacing="8" fill="#c9a8fb">hey, i'm</text>
+  <text x="58" y="162" font-size="104" font-weight="700" letter-spacing="-3" fill="#f5f1ff">ankit</text>
+  <rect x="64" y="180" width="210" height="5" rx="2.5" fill="url(#bar)"/>
+  <text x="64" y="222" font-size="30" fill="#e0d3f5">I build things that read, reason &amp; render</text>
+</svg>

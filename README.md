@@ -1,157 +1,155 @@
-# Hey 👋
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+  <img src="assets/header.svg" width="100%" alt="Hey, I'm Ankit. I build things that read, reason & render" />
+</picture>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=B8392A&center=true&vCenter=true&width=520&lines=Python+%C2%B7+SQL+%C2%B7+JavaScript+%C2%B7+C%2FC%2B%2B;Data+pipelines+%C2%B7+LLM+orchestration+%C2%B7+Postgres;Building+things+that+read%2C+reason+%26+render" alt="Typing SVG" />
-</div>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1400&color=A78BFA&vCenter=true&width=460&height=24&size=15&lines=python+%C2%B7+typescript+%C2%B7+sql+%C2%B7+postgres;llm+pipelines+that+survive+the+free+tier;browser+automation+%C2%B7+data+dashboards;scroll+down%2C+the+good+stuff+is+below+%E2%86%93" alt="typing intro" />
 
-<div align="center">
+<p>
+  <a href="https://dsatracker.tech"><img src="https://img.shields.io/badge/▶_try_DSA_Tracker-8B5CF6?style=flat-square" alt="Try DSA Tracker" /></a>&nbsp;
+  <a href="https://anki1kr.me"><img src="https://img.shields.io/badge/🚀_fly_the_portfolio-161b22?style=flat-square" alt="Fly the portfolio" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/anki1kr"><img src="https://img.shields.io/badge/💼_linkedin-161b22?style=flat-square" alt="LinkedIn" /></a>
+</p>
 
-[![About](https://img.shields.io/badge/-About-B8392A?style=for-the-badge)](#about)
-[![Projects](https://img.shields.io/badge/-Projects-B8392A?style=for-the-badge)](#things-ive-built)
-[![Stack](https://img.shields.io/badge/-Stack-B8392A?style=for-the-badge)](#stack-i-actually-use)
-[![Stats](https://img.shields.io/badge/-GitHub_Stats-B8392A?style=for-the-badge)](#github-at-a-glance)
-[![Contact](https://img.shields.io/badge/-Find_Me-B8392A?style=for-the-badge)](#find-me)
-
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anki1kr/anki1kr/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anki1kr/anki1kr/output/github-contribution-grid-snake.svg" />
-    <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/anki1kr/anki1kr/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
----
+<p>
+  <sub>
+    pick a path →
+    <a href="#github-activity">🏃 the numbers</a> ·
+    <a href="#-dsa-tracker">🧑‍💻 the code</a> ·
+    <a href="#-the-flight-portfolio">🚀 the portfolio</a>
+  </sub>
+</p>
 
 ## About
 
-I build things end-to-end — Postgres schemas, REST APIs, LLM pipelines that don't fall over on free-tier rate limits, and dashboards that actually look at the data instead of decorating it.
+I build complete products: the Postgres schema, the API on top of it, the LLM pipeline behind it, and the frontend that makes sense of it all. My favourite constraint is $0 infrastructure. It taught me failover, caching, and quota juggling the honest way: get burned mid-demo first, fix it after.
 
-Mostly I write Python and JavaScript. Most of what I've shipped is data-heavy or LLM-flavoured.
+Most of my time goes into **[DSA Tracker](https://dsatracker.tech)**, a live prep platform I run end-to-end. The rest goes into browser automation (Playwright, Chrome extensions), PRs to open-source LLM infrastructure, and [a portfolio you literally fly through](https://anki1kr.me).
 
-<details>
-<summary>🛰️ Currently building / learning</summary>
-<br>
+**Right now:** animated algorithm visualizers for every pattern in my dataset (about halfway), sharper statistical reasoning, and prompt engineering that survives real users, not just a demo.
 
-- [x] Ship SUITS (DSATracker) to production, keep it alive on free-tier infra
-- [x] Multi-provider LLM failover that survives a dead API key mid-demo
-- [ ] Better statistical reasoning — hypothesis testing beyond the classroom version
-- [ ] Async patterns that don't just work, but read clean six months later
-- [ ] Prompt engineering that survives contact with real users, not just a demo
+## The road so far
 
-</details>
-
----
-
-## Stack I actually use
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
-
-<details>
-<summary>📊 Breakdown by how often I actually reach for it</summary>
-<br>
-
-**Day-to-day:** Python · SQL · Pandas · NumPy · Flask · Supabase · Chart.js · LLM APIs
-**Comfortable:** JavaScript · Chrome extensions (MV3) · Power BI · Excel (Pivot/VLOOKUP/Power Query) · C/C++
-**Learning:** Better statistical reasoning, async patterns, prompt engineering that survives production.
-
-</details>
-
----
+```mermaid
+timeline
+    title from first notebook to two products in production
+    2024 : joined github
+    2025 : python + sql foundations, first notebooks
+    2026 : crawler, an LLM browser agent (chrome extension)
+         : 30+ OSS PRs to 9router & OmniRoute
+         : DSA Tracker live at dsatracker.tech
+         : the flight portfolio lifts off at anki1kr.me
+```
 
 ## Things I've built
 
-<details open>
-<summary><h3 style="display:inline">🎯 SUITS — Career Intelligence Platform</h3></summary>
-<br>
+### 🎯 DSA Tracker
 
-**[Repo →](https://github.com/anki1kr/SUITS) · [Live →](https://dsatracker.tech)**
+**In production · [dsatracker.tech](https://dsatracker.tech)** · source private while it's a running business
 
-Full-stack analytics platform for **22 job-role profiles** with personalized skill-gap insights from a curated 370-problem dataset.
-
-- Normalized PostgreSQL schema on Supabase + Google OAuth
-- Multi-provider LLM pipeline with auto-failover across **OpenRouter** and **NVIDIA NIM** — built this after watching one provider's free tier nuke me mid-demo
-- Interactive dashboard: mastery rings, activity heatmaps, per-topic skill breakdowns (Chart.js)
-
-**Stack:** Python · Flask · PostgreSQL · Supabase · Chart.js · OpenRouter · Render
-
-</details>
+One question, answered properly: *"what should I solve next for MY target role?"* A curated **370-problem dataset** mapped to **29 job roles**, running on **Next.js + FastAPI + Supabase Postgres**, deployed on Cloudflare Pages + Render, all free tier.
 
 <details>
-<summary><h3 style="display:inline">🕷️ Crawler — AI Browser Agent</h3></summary>
-<br>
+<summary><b>⚙️ Under the hood</b> — the architecture and the war stories</summary>
+<br/>
 
-**[Repo →](https://github.com/anki1kr/crawler)**
+```mermaid
+flowchart LR
+    U([visitor]) --> FE[Next.js<br/>Cloudflare Pages]
+    FE --> API[FastAPI<br/>Render]
+    API --> DB[(Supabase<br/>Postgres)]
+    API --> R{LLM router}
+    R -->|primary| P1[OpenRouter]
+    R -->|on 429/dead key| P2[NVIDIA NIM]
+```
 
-Chrome extension that does **multi-step web automation** via LLM tool-calling. Give it a page, it pulls structured data out.
+- Multi-provider **LLM pipeline with auto-failover**, built after one provider's free tier nuked me mid-demo
+- **Animated algorithm visualizers**: step-through traces generated by running the real algorithm and recording its state
+- Progress sync from **7 platforms** (LeetCode, Codeforces, CodeChef, GFG, AtCoder, HackerRank, GitHub)
+- Google OAuth, admin panel, rate-limited public APIs, and a support inbox that doesn't depend on the visitor's mail client
 
-- Unified routing layer across **8 LLM providers** with cooldown-based failover
-- Built to stay alive under free-tier quotas — the whole point was "make it work without paying"
-
-**Stack:** JavaScript · Chrome MV3 · Service Workers · SSE Streaming
+This project taught me more about production than everything else combined: OAuth edge cases, dead API keys, SEO, admin tooling, and a signup bug hiding in a database trigger.
 
 </details>
+
+Built with <code title="the dashboard and every rendered page">next.js</code> <code title="typed frontend, shared types with the api">typescript</code> <code title="the backend api and the llm router">fastapi</code> <code title="backend logic and the failover layer">python</code> <code title="the 370-problem dataset and every user's progress">postgres</code> <code title="postgres hosting + auth">supabase</code> <code title="hosts the frontend, free tier">cloudflare</code> <code title="hosts the fastapi backend, free tier">render</code>
+
+### 🚀 The flight portfolio
+
+**In production · [anki1kr.me](https://anki1kr.me)**
+
+Instead of a scrolling page, my portfolio is a small open world built in **Three.js WebGL with no build step**. You pilot a ship between planets named About, Skills, Projects, Education and Contact. Land on one and an astronaut hops out, plants a flag, and the section opens.
 
 <details>
-<summary><h3 style="display:inline">📸 Scroll Screenshotter</h3></summary>
-<br>
+<summary><b>🛰️ Flight manual</b> — how it stays fast and flyable</summary>
+<br/>
 
-**[Repo →](https://github.com/anki1kr/scroll-shot)**
-
-Chrome extension that captures full-page screenshots in scroll-steps and packages them as a downloadable ZIP via the Offscreen Document API. Small tool, scratched a real itch.
-
-**Stack:** JavaScript · Chrome MV3 · Offscreen Document API · JSZip
+- The ship and station are **modeled in Blender**, exported as GLB
+- **Draco-compressed models** took first load from 18MB to ~3MB gzipped, launch-ready in under 5 seconds
+- Custom **GLSL world-space joystick** for phones, plus a radar map of the whole sector
+- Landing cinematic: astronaut emerges, plants a flag, waves at you, skippable, respects reduced motion
+- In a hurry? There's a recruiter quick-view that skips the flying
 
 </details>
 
----
+Built with <code title="renders the whole 3d world">three.js</code> <code title="what three.js draws through">webgl</code> <code title="the custom mobile joystick shader">glsl</code> <code title="where the ship and station were modeled">blender</code> <code title="compressed the models ~6x for a fast load">draco</code> <code title="hosts the whole site, free">github pages</code>
 
-## GitHub at a glance
+## Open source
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=anki1kr&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=anki1kr&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
+Beyond my own repos, I contribute to self-hosted **LLM router/proxy infrastructure**, the kind of tooling my own projects depend on: **30+ contributions across [9router](https://github.com/anki1kr/9router) and [OmniRoute](https://github.com/anki1kr/OmniRoute)** covering i18n coverage, multi-key load balancing, provider-compatibility fixes, and WebSocket bundling bugs.
 
-<div align="center">
-  <img width="80%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anki1kr&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-</div>
+Fixing infra you actually use is the fastest way I've found to learn a codebase you didn't write.
 
-<details>
-<summary align="center">🏆 Trophy case</summary>
-<br>
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anki1kr&theme=tokyonight&no-frame=true&row=1&column=4" alt="GitHub Trophies" />
-</div>
-</details>
+## Stack
 
----
+- **Backend & data** — Python · FastAPI · Flask · PostgreSQL / Supabase · Pandas / NumPy. Runs DSA Tracker's API and its 370-problem dataset.
+- **Frontend & 3D** — TypeScript · Next.js · React · Tailwind · Three.js + GLSL · Blender. DSA Tracker's dashboard and the flight portfolio.
+- **Automation & analysis** — Playwright · Chrome extensions (MV3) · SQL · Power BI. Browser agents, scrapers, and the odd dashboard.
+- **Currently learning** — statistical reasoning · async patterns · prompt engineering that survives production.
+
+And the same stack as a chart, because I like charts:
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"backgroundColor": "transparent", "plotColorPalette": "#a78bfa", "titleColor": "#8b949e", "xAxisLabelColor": "#8b949e", "xAxisTitleColor": "#8b949e", "xAxisLineColor": "#30363d", "yAxisLabelColor": "#8b949e", "yAxisTitleColor": "#8b949e", "yAxisLineColor": "#30363d"}}}}%%
+xychart-beta horizontal
+    title "how often i reach for a tool (% of working days, self-reported)"
+    x-axis ["python", "sql / postgres", "llm apis", "typescript / next.js", "fastapi / flask", "pandas / numpy", "playwright", "power bi / excel", "c / c++"]
+    y-axis "% of days" 0 --> 100
+    bar [95, 88, 85, 82, 78, 72, 65, 45, 35]
+```
+
+## GitHub activity
+
+![Contribution graph, one square per day](https://ghchart.rshah.org/a78bfa/anki1kr)
+
+![Current commit streak](https://streak-stats.demolab.com?user=anki1kr&hide_border=true&background=0d1117&ring=a78bfa&fire=f0abfc&currStreakLabel=f0abfc&sideLabels=c9d1d9&currStreakNum=f0eefc&sideNums=f0eefc&dates=8b949e)
 
 ## Find me
 
-<p align="left">
-  <a href="https://github.com/anki1kr" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://leetcode.com/anki1kr/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-</p>
+- 💼 [linkedin.com/in/anki1kr](https://www.linkedin.com/in/anki1kr)
+- ✉️ [ankitkumar67930@gmail.com](mailto:ankitkumar67930@gmail.com)
+- 🌍 [anki1kr.me](https://anki1kr.me), the flying portfolio
+- 🧩 [leetcode.com/anki1kr](https://leetcode.com/anki1kr/)
 
----
+Open to collabs and weird side projects. If you're working on something with LLMs, data pipelines, or browser automation, say hi.
 
-<div align="center">
-  <sub>Open to collabs and weird side projects. If you're working on something with LLMs, data pipelines, or browser automation — open an issue and say hi.</sub>
-  <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=anki1kr&style=flat-square&color=B8392A&label=visitors" alt="Profile Views" />
-</div>
+<details>
+<summary>🥚 p.s. you scrolled all the way down</summary>
+<br/>
+
+```
+        /\
+       /  \
+      | ▲▲ |
+      | () |      the astronaut waves at you.
+     /|    |\     thanks for reading everything.
+    / |    | \    the real ship is parked at anki1kr.me,
+   |  | 🚀 |  |   engines warm. go take it for a spin.
+    \_|____|_/
+      /_/\_\
+      ~~~~~~
+```
+
+**[launch →](https://anki1kr.me)**
+
+</details>

@@ -1,0 +1,18 @@
+# Local AI-tool state (ruflo/claude-flow)
+.claude-flow/
+.swarm/
+ruvector.db
+.claude/
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Local scratch
+*.log
+*.tmp
