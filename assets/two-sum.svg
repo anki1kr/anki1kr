@@ -1,0 +1,96 @@
+<svg width="880" height="250" viewBox="0 0 880 250" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Cascadia Code, Consolas, Menlo, monospace" role="img" aria-label="Two Sum, one pass with a hash map: the pointer walks the array, stores each value it has seen, and at 7 finds 2 already seen, so it returns [3, 4]">
+  <!-- A 10-second loop of the kind of walkthrough DSA Tracker draws for every problem. Hand-written SVG and CSS,
+       no service behind it. Reduced motion: the finished state (the answer) is shown and nothing moves. -->
+  <style>
+    .card { fill: #0d1117; stroke: #30363d; }
+    .title { fill: #c9d1d9; font-size: 15px; }
+    .muted { fill: #8b949e; font-size: 13px; }
+    .cell { fill: #161b22; stroke: #30363d; stroke-width: 1.5; }
+    .val { fill: #e6edf3; font-size: 22px; text-anchor: middle; }
+    .idx { fill: #8b949e; font-size: 12px; text-anchor: middle; }
+    .ptr { fill: #a78bfa; }
+    .seen { fill: #d2a8ff; font-size: 14px; }
+    .hit { fill: none; stroke: #7ee787; stroke-width: 3; }
+    .cap { font-size: 14px; fill: #c9d1d9; }
+    .ok { fill: #7ee787; }
+
+    .ptr-g { animation: walk 10s ease-in-out infinite; }
+    @keyframes walk {
+      0%, 11% { transform: translateX(0); }
+      12%, 23% { transform: translateX(96px); }
+      24%, 35% { transform: translateX(192px); }
+      36%, 47% { transform: translateX(288px); }
+      48%, 95% { transform: translateX(384px); }
+      100% { transform: translateX(0); }
+    }
+    .s1 { animation: s1 10s infinite; } @keyframes s1 { 0%, 11% { opacity: 0; } 12%, 95% { opacity: 1; } 100% { opacity: 0; } }
+    .s2 { animation: s2 10s infinite; } @keyframes s2 { 0%, 23% { opacity: 0; } 24%, 95% { opacity: 1; } 100% { opacity: 0; } }
+    .s3 { animation: s3 10s infinite; } @keyframes s3 { 0%, 35% { opacity: 0; } 36%, 95% { opacity: 1; } 100% { opacity: 0; } }
+    .s4 { animation: s4 10s infinite; } @keyframes s4 { 0%, 47% { opacity: 0; } 48%, 95% { opacity: 1; } 100% { opacity: 0; } }
+    .win { animation: win 10s infinite; } @keyframes win { 0%, 51% { opacity: 0; } 54%, 95% { opacity: 1; } 100% { opacity: 0; } }
+    .c0 { animation: c0 10s infinite; } @keyframes c0 { 0%, 11% { opacity: 1; } 12%, 100% { opacity: 0; } }
+    .c1 { animation: c1 10s infinite; } @keyframes c1 { 0%, 11% { opacity: 0; } 12%, 23% { opacity: 1; } 24%, 100% { opacity: 0; } }
+    .c2 { animation: c2 10s infinite; } @keyframes c2 { 0%, 23% { opacity: 0; } 24%, 35% { opacity: 1; } 36%, 100% { opacity: 0; } }
+    .c3 { animation: c3 10s infinite; } @keyframes c3 { 0%, 35% { opacity: 0; } 36%, 47% { opacity: 1; } 48%, 100% { opacity: 0; } }
+    .c4 { animation: c4 10s infinite; } @keyframes c4 { 0%, 47% { opacity: 0; } 48%, 95% { opacity: 1; } 100% { opacity: 0; } }
+    /* Without motion the steps would sit on top of each other: show only the answer. */
+    @media (prefers-reduced-motion: reduce) {
+      .ptr-g { animation: none; transform: translateX(384px); }
+      .s1, .s2, .s3, .s4, .win, .c4 { animation: none; opacity: 1; }
+      .c0, .c1, .c2, .c3 { animation: none; opacity: 0; }
+    }
+  </style>
+
+  <rect class="card" x="1" y="1" width="878" height="248" rx="14"/>
+  <text class="title" x="32" y="38">two sum · one pass with a hash map</text>
+  <text class="muted" x="32" y="60">nums = [11, 3, 15, 2, 7, 5]   target = 9</text>
+  <text class="muted" x="848" y="38" text-anchor="end">walkthrough from dsatracker.tech</text>
+
+  <!-- the array -->
+  <g>
+    <rect class="cell" x="32" y="84" width="80" height="58" rx="10"/>
+    <rect class="cell" x="128" y="84" width="80" height="58" rx="10"/>
+    <rect class="cell" x="224" y="84" width="80" height="58" rx="10"/>
+    <rect class="cell" x="320" y="84" width="80" height="58" rx="10"/>
+    <rect class="cell" x="416" y="84" width="80" height="58" rx="10"/>
+    <rect class="cell" x="512" y="84" width="80" height="58" rx="10"/>
+    <text class="val" x="72" y="121">11</text>
+    <text class="val" x="168" y="121">3</text>
+    <text class="val" x="264" y="121">15</text>
+    <text class="val" x="360" y="121">2</text>
+    <text class="val" x="456" y="121">7</text>
+    <text class="val" x="552" y="121">5</text>
+    <text class="idx" x="72" y="76">0</text>
+    <text class="idx" x="168" y="76">1</text>
+    <text class="idx" x="264" y="76">2</text>
+    <text class="idx" x="360" y="76">3</text>
+    <text class="idx" x="456" y="76">4</text>
+    <text class="idx" x="552" y="76">5</text>
+  </g>
+
+  <!-- the answer: cells 3 and 4 -->
+  <g class="win">
+    <rect class="hit" x="318" y="82" width="84" height="62" rx="11"/>
+    <rect class="hit" x="414" y="82" width="84" height="62" rx="11"/>
+  </g>
+
+  <!-- the pointer i -->
+  <g class="ptr-g">
+    <path class="ptr" d="M72 150 l-8 12 h16 z"/>
+    <text class="ptr" x="72" y="180" font-size="14" text-anchor="middle">i</text>
+  </g>
+
+  <!-- what has been seen: value -> index -->
+  <text class="muted" x="640" y="92">seen</text>
+  <text class="seen s1" x="640" y="114">11 → 0</text>
+  <text class="seen s2" x="640" y="134">3 → 1</text>
+  <text class="seen s3" x="740" y="114">15 → 2</text>
+  <text class="seen s4" x="740" y="134">2 → 3</text>
+
+  <!-- one caption per step -->
+  <text class="cap c0" x="32" y="222">need 9 − 11 = −2 · not seen yet · remember 11</text>
+  <text class="cap c1" x="32" y="222">need 9 − 3 = 6 · not seen yet · remember 3</text>
+  <text class="cap c2" x="32" y="222">need 9 − 15 = −6 · not seen yet · remember 15</text>
+  <text class="cap c3" x="32" y="222">need 9 − 2 = 7 · not seen yet · remember 2</text>
+  <text class="cap c4" x="32" y="222">need 9 − 7 = 2 · seen at index 3 · <tspan class="ok">return [3, 4]</tspan>  O(n) time</text>
+</svg>
