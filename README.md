@@ -5,29 +5,58 @@
 
 <p>
   <a href="https://dsatracker.tech" title="DSA Tracker, in production">dsatracker.tech</a>&ensp;&ensp;
-  <a href="https://anki1kr.me" title="The flight portfolio">anki1kr.me</a>&ensp;&ensp;
+  <a href="https://anki1kr.me" title="The portfolio gate">anki1kr.me</a>&ensp;&ensp;
   <a href="https://www.linkedin.com/in/anki1kr">LinkedIn</a>&ensp;&ensp;
   <a href="mailto:ankitkumar67930@gmail.com">Email</a>
 </p>
 
-<p>
-  <sub>On this page:&ensp;<a href="#dsa-tracker">DSA Tracker</a>&ensp;<a href="#flight-portfolio">Flight portfolio</a>&ensp;<a href="#open-source">Open source</a>&ensp;<a href="#internship-and-analysis-work">Internships</a>&ensp;<a href="#timeline">Timeline</a>&ensp;<a href="#contact">Contact</a></sub>
-</p>
+## Who's watching?
+
+The front door of [anki1kr.me](https://anki1kr.me) asks that question, and so does this page. Pick the way in that fits how you like to look at work. Each picture opens the live thing.
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+<a href="https://anki1kr.me/aura/"><img src="assets/media/poster-resume.jpg" width="100%" alt="The résumé: a red name rising out of fog, the figure stepping in front of it." /></a>
+<br/><b><a href="https://anki1kr.me/aura/">Developer</a></b>
+<br/><sub>A cinematic résumé you scroll through.</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<a href="https://anki1kr.me/space.html"><img src="assets/media/poster-flight.jpg" width="100%" alt="The 3D portfolio: a ship flying through a field of stars toward a bright nebula." /></a>
+<br/><b><a href="https://anki1kr.me/space.html">Creative</a></b>
+<br/><sub>A small open world you fly a ship through.</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<a href="https://dsatracker.tech"><img src="assets/media/poster-dsa.jpg" width="100%" alt="DSA Tracker: the problem set reordered for the role you pick." /></a>
+<br/><b><a href="https://dsatracker.tech">DSA Tracker</a></b>
+<br/><sub>The product I run. Try it with no account.</sub>
+</td>
+</tr>
+</table>
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg" />
   <img src="assets/stats.svg" width="100%" alt="370 problems, 30 job roles, 9 languages judged, 6 platforms synced, 31 pull requests, 2 products live." />
 </picture>
 
-I build complete products: the Postgres schema, the API on it, the LLM pipeline behind it, and the frontend that makes sense of it. Everything I run is on free tiers, which is where I learned failover, caching and quota handling: each one broke in front of someone before I fixed it.
+I build complete products: the database, the API on it, the LLM pipeline behind it, and the frontend that makes sense of it. Everything I run is on free tiers, which is where I learned failover, caching and quota handling: each one broke in front of someone before I fixed it.
 
 **Current focus:** the first hour of a new DSA Tracker user. Fewer clicks to the first solved problem, pages that do not shift while they load, and AI help that never leaves a blank screen.
+
+<sub>On this page:&ensp;<a href="#dsa-tracker">DSA Tracker</a>&ensp;<a href="#the-resume">Résumé</a>&ensp;<a href="#the-flight-portfolio">Flight portfolio</a>&ensp;<a href="#open-source">Open source</a>&ensp;<a href="#internship-and-analysis-work">Internships</a>&ensp;<a href="#timeline">Timeline</a>&ensp;<a href="#contact">Contact</a></sub>
 
 ## DSA Tracker
 
 **In production at [dsatracker.tech](https://dsatracker.tech).** Source is private while it runs as a business.
 
-It answers one question: what should I solve next for my target role? A curated dataset of 370 problems across 22 topics, reordered for 30 job roles, on Next.js, FastAPI and Postgres. No account is needed to try it: one click lands on the first problem.
+It answers one question: what should I solve next for my target role? A curated dataset of 370 problems across 22 topics, reordered for 30 job roles. No account is needed to try it: one click lands on the first problem.
+
+<p align="center">
+<a href="https://dsatracker.tech" title="Open DSA Tracker">
+<img src="assets/media/dsa-tracker.gif" width="90%" alt="Recorded from the product film: the role picker reorders the 370 problems, a Two Sum solution is typed and accepted, then a step-by-step run of an array problem." />
+</a>
+</p>
+<sub>From the product's own film: pick a role, solve in the browser, watch an algorithm run step by step.</sub>
 
 <a href="https://dsatracker.tech/problems" title="Open the role view on dsatracker.tech">
 <picture>
@@ -56,17 +85,29 @@ It answers one question: what should I solve next for my target role? A curated 
 
 <code title="the dashboard and every rendered page">next.js</code> <code title="typed frontend, shared types with the api">typescript</code> <code title="the backend api">fastapi</code> <code title="backend logic and the failover layer">python</code> <code title="the 370-problem dataset and every user's progress">postgres</code>
 
-## Flight portfolio
+## The résumé
 
-**In production at [anki1kr.me](https://anki1kr.me).** Instead of a scrolling page, a small open world in Three.js WebGL with no build step.
+**[anki1kr.me/aura](https://anki1kr.me/aura/).** One page, seven scenes, all of it driven from a single content file: the hero, the journey, skills, experience, projects on a turning drum, certifications and contact. It scrolls with inertia, and every scene works on a phone too.
 
-<a href="https://anki1kr.me" title="Fly it yourself at anki1kr.me">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/flight-light.svg" />
-  <img src="assets/flight.svg" width="100%" alt="The flight portfolio: the ship flies from About to Projects, lands, an astronaut plants a flag and the section opens. Opens anki1kr.me." />
-</picture>
+<p align="center">
+<a href="https://anki1kr.me/aura/" title="Scroll the résumé">
+<img src="assets/media/resume.gif" width="90%" alt="Recorded from the live page: the name rises out of fog and the figure steps in, then scenes for skills, experience and projects scroll past." />
 </a>
-<sub>Fly it yourself: <a href="https://anki1kr.me">anki1kr.me</a>. In a hurry? The recruiter quick-view skips the flying.</sub>
+</p>
+<sub>Recorded from the live page. Scroll it yourself: <a href="https://anki1kr.me/aura/">anki1kr.me/aura</a></sub>
+
+<code title="scroll-driven scenes and timelines">gsap</code> <code title="inertial scrolling">lenis</code> <code title="the ember particles">three.js</code>
+
+## The flight portfolio
+
+**[anki1kr.me/space.html](https://anki1kr.me/space.html).** Instead of a scrolling page, a small open world in Three.js WebGL with no build step. You pilot a ship between planets named About, Skills, Projects, Education and Contact. Land on one and an astronaut steps out, plants a flag, and the section opens.
+
+<p align="center">
+<a href="https://anki1kr.me/space.html" title="Take the ship out">
+<img src="assets/media/flight.gif" width="90%" alt="Recorded from the live site: the ship flies through a star field past nebulae, with the radar map in the corner." />
+</a>
+</p>
+<sub>Recorded from the live site. Fly it yourself: <a href="https://anki1kr.me/space.html">anki1kr.me/space.html</a>. Keys: W A S D to fly. In a hurry? A recruiter quick-view skips the flying.</sub>
 
 <details>
 <summary><b>How it stays fast</b></summary>
@@ -79,7 +120,7 @@ It answers one question: what should I solve next for my target role? A curated 
 
 </details>
 
-<code title="renders the whole 3d world">three.js</code> <code title="what three.js draws through">webgl</code> <code title="the custom mobile joystick shader">glsl</code> <code title="where the ship and station were modelled">blender</code> <code title="compressed the models about 5x for a fast load">draco</code> <code title="hosts the whole site, free">github pages</code>
+<code title="renders the whole 3d world">three.js</code> <code title="what three.js draws through">webgl</code> <code title="the custom mobile joystick shader">glsl</code> <code title="where the ship and station were modelled">blender</code> <code title="compressed the models about 5x for a fast load">draco</code>
 
 ## Open source
 
@@ -109,7 +150,7 @@ It answers one question: what should I solve next for my target role? A curated 
 ## Stack
 
 - **Backend and data:** Python, FastAPI, Flask, PostgreSQL, Pandas, NumPy.
-- **Frontend and 3D:** TypeScript, Next.js, React, Tailwind, Three.js, GLSL, Blender.
+- **Frontend and 3D:** TypeScript, Next.js, React, Tailwind, GSAP, Three.js, GLSL, Blender.
 - **Automation and analysis:** Playwright, Chrome extensions (MV3), SQL, Power BI.
 - **Learning now:** statistical reasoning, async patterns, prompt design that holds up in production.
 
@@ -127,16 +168,9 @@ It answers one question: what should I solve next for my target role? A curated 
 Open to collaboration on LLM tooling, data pipelines and browser automation.
 
 <details>
-<summary><b>The data behind this page</b></summary>
+<summary><b>How this page is made</b></summary>
 <br/>
 
-Every panel above is drawn by <code>assets/build.mjs</code> from this file, which is exported from the project code. No number is typed by hand.
-
-```json
-{
-  "numbers": { "problems": 370, "topics": 22, "roles": 30, "languages": 9, "platforms": 6, "prs": 31, "prs9router": 20, "prsOmniRoute": 11, "products": 2 },
-  "roles": "the first eight topics of four of the thirty role orders, see assets/profile-data.json"
-}
-```
+The animated panels are drawn by <code>assets/build.mjs</code> from <code>assets/profile-data.json</code>, which is exported from the project code, so no number on them is typed by hand. The three moving pictures of live sites in <code>assets/media</code> are recordings of the real pages.
 
 </details>
