@@ -1,0 +1,67 @@
+{
+ "numbers": {
+  "problems": 370,
+  "topics": 22,
+  "roles": 30,
+  "languages": 9,
+  "platforms": 6,
+  "prs": 31,
+  "prs9router": 20,
+  "prsOmniRoute": 11,
+  "products": 2
+ },
+ "roles": {
+  "SDE / Software Engineer": {
+   "shown": [
+    "Arrays",
+    "Strings",
+    "Linked List",
+    "Binary Trees",
+    "BST",
+    "Graph",
+    "Dynamic Programming",
+    "Stack"
+   ],
+   "core": 8
+  },
+  "Data Engineer": {
+   "shown": [
+    "Arrays",
+    "Sorting",
+    "Math",
+    "Matrix",
+    "Intervals",
+    "Two Pointers",
+    "Graph",
+    "Strings"
+   ],
+   "core": 7
+  },
+  "ML Engineer": {
+   "shown": [
+    "Arrays",
+    "Matrix",
+    "Math",
+    "Dynamic Programming",
+    "Recursion",
+    "Binary Search",
+    "Sorting",
+    "Two Pointers"
+   ],
+   "core": 6
+  },
+  "Frontend Engineer": {
+   "shown": [
+    "Arrays",
+    "Strings",
+    "Two Pointers",
+    "Sliding Window",
+    "Recursion",
+    "Sorting",
+    "Stack",
+    "Queue"
+   ],
+   "core": 6
+  }
+ }
+}
